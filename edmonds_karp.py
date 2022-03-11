@@ -73,7 +73,3 @@ def edmonds_karp(entrances, exits, path):
             residual_network[hi][lo] = residual_network[hi][lo]+path_flow
     return max_flow
             
-            
-            
-            
-print(solution([0], [3], [[0, 7, 0, 0], [0, 0, 6, 0], [0, 0, 0, 8], [9, 0, 0, 0]]))
